@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'MVVM GetX',
       translations: Languages(),
       locale: Locale("en", "US"),
-      fallbackLocale: Locale("en", "US"),
+    fallbackLocale: Locale("en", "US"),
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
