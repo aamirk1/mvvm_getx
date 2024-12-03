@@ -14,12 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-
       debugShowCheckedModeBanner: false,
       title: 'MVVM GetX',
       translations: Languages(),
-      locale: Locale("en", "US"),
-    fallbackLocale: Locale("en", "US"),
+      locale: const Locale("en", "US"),
+      fallbackLocale: const Locale("en", "US"),
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

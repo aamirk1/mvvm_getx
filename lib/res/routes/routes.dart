@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:mvvm_getx/res/routes/routes_name.dart';
+import 'package:mvvm_getx/view/login/login_view.dart';
 import 'package:mvvm_getx/view/splash_screen.dart';
 
 class AppRoutes {
@@ -10,10 +11,10 @@ class AppRoutes {
             transitionDuration: const Duration(milliseconds: 250),
             transition: Transition.leftToRight),
 
-        // GetPage(
-        // name: RoutesName.loginScreen,
-        // page: () => const LoginScreen(),
-        // transitionDuration: const Duration(milliseconds: 250),
-        // transition: Transition.leftToRight)
+        GetPage(
+        name: RoutesName.loginView,
+        page: () => const LoginView(),
+        transitionDuration: const Duration(milliseconds: 250),
+        transition: Transition.leftToRight)
       ];
 }
